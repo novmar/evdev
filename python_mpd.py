@@ -51,9 +51,6 @@ logging.debug("Press remote IR buttons, Ctrl-C to quit")
 for event in irr.read_loop():
    if event.type == 4:
       try:
-         if event.value == 25:
-            print("test")
-            logging.debug(proc)
          if event.value in events:
             if events[event.value]["command"] != "":
                now=int(time()*1000.0)
