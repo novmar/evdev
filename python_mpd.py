@@ -13,11 +13,11 @@ KEY_6     = { "command":"", "repeat":300,"time":0}
 KEY_7     = { "command":"", "repeat":300,"time":0}
 KEY_8     = { "command":"", "repeat":300,"time":0}
 KEY_9     = { "command":"", "repeat":300,"time":0}
-KEY_UP    = { "command":"mpc volume +2", "repeat":200,"time":0}
-KEY_DOWN  = { "command":"mpc volume -2", "repeat":200,"time":0}
-KEY_LEFT  = { "command":"mpc prev", "repeat":500,"time":0}
-KEY_RIGHT = { "command":"mpc next", "repeat":500,"time":0}
-KEY_OK    = { "command":"mpc toggle", "repeat":300,"time":0}
+KEY_UP    = { "command":"mpc volume +2", "repeat":80,"time":0}
+KEY_DOWN  = { "command":"mpc volume -2", "repeat":80,"time":0}
+KEY_LEFT  = { "command":"mpc prev", "repeat":300,"time":0}
+KEY_RIGHT = { "command":"mpc next", "repeat":300,"time":0}
+KEY_OK    = { "command":"mpc toggle", "repeat":200,"time":0}
 KEY_STAR  = { "command":"", "repeat":300,"time":0}
 KEY_SIGN  = { "command":"", "repeat":300,"time":0}
 
