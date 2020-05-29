@@ -6,5 +6,5 @@ cp python_mpd.py /usr/bin/
 cp mpdremote.service /etc/systemd/system
 chmod +x /usr/bin/python_mpd.py
 systemctl daemon-reload
-systemctl enable pdremote.service
-systemctl start pdremote.service
+systemctl enable mpdremote.service
+systemctl start mpdremote.service
