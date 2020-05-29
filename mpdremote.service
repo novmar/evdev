@@ -1,1 +1,6 @@
-etc/systemd/system/mpdremote.service
+[Unit]
+Description=mpc remote control from ir
+
+[Service]
+# Command to execute when the service is started
+ExecStart=/usr/bin/python_mpd.py
